@@ -30,17 +30,6 @@ public class TestTree {
         List<Triple> triples = new ArrayList<>();
         traverseLmr3(triples, root, 0, "");
         printTree2(triples);
-//        printTree(root, holder);
-//        System.out.println(getTreeHeight(root));
-//        traverseLrm(sorted, root);
-//        traverseMlr(sorted, root);
-//        for (Integer integer : sorted) {
-//            System.out.println(integer);
-//        }
-//
-//        System.out.println(search(root, 5));
-//        System.out.println(search(root, 11));
-//        System.out.println(search(root, 2));
 
     }
 
@@ -110,7 +99,6 @@ public class TestTree {
     public static void printTree(Node root, List<Integer> holder) {
         int treeHeight = getTreeHeight(root);
         int treeWidthSpaces = treeHeight * 2 + 1;
-//            System.out.println(treeWidthSpaces);
 
     }
 
